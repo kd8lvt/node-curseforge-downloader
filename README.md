@@ -12,4 +12,4 @@ A CLI utility that makes downloading Minecraft Curseforge mod(pack)s programatic
 # Making your own Presets
 Making presets is designed to be as easy as possible. Keep in mind you can't specify specific versions of mods. It will always download the latest version for your minecraft version.
 
-Check out how to create Presets via our Wiki. (WIP)
+[Learn how to make presets](https://github.com/kd8lvt/node-curseforge-downloader/wiki/Presets)
