@@ -1,0 +1,161 @@
+{
+	"categorylisting": {
+		"core": ["coreutility","corecontentlite","corecontentfull","corelite","corefull"],
+		"modpacks": ["corelite","corefull","coreutility"]
+	},
+	"versionlisting":{
+		"1.12.2": ["coreutility","corecontentlite","corecontentfull","corelite","corefull"]
+	},
+	"presets": {
+		"justjei": {
+			"version":"1.0.0",
+			"mcversion":"1.12.2",
+			"description":"a debug preset",
+			"mods": [
+				"just enough items"
+			]
+		},
+		"coreutility": {
+			"version":"1.0.0",
+			"mcversion":"1.12.2",
+			"description":"A helper preset for most of the 'core' presets. Mostly client-side mods, core mods, and other utilities. Nothing that directly adds blocks/items/etc. Should work with vanilla servers!",
+			"mods": [
+				"appleskin",
+				"controlling",
+				"foamfix",
+				"inventory tweaks",
+				"journeymap",
+				"jei",
+				"morpheus",
+				"mouse tweaks",
+				"ore excavation",
+				"hwyla",
+				"wawla",
+				"crafttweaker",
+				"mtlib",
+				"modtweaker",
+				"resource loader",
+				"reauth",
+				"chameleon",
+				"cofh core",
+				"mantle",
+				"betterfps",
+				"fastworkbench",
+				"fastfurnace",
+				"ftb library",
+				"ftb utilities",
+				"ftb backups",
+				"clumps",
+				"swingthroughgrass",
+				"toast control",
+				"openmodslib",
+				"fast leaf decay",
+				"more overlays",
+				"tesla core lib",
+				"kleeslabs",
+				"baubles",
+				"redstoneflux",
+				"just enough resources (jer)",
+				"netherportalfix",
+				"cosmetic armor reworked",
+				"vanillafix",
+				"dynamic surroundings",
+				"client tweaks",
+				"diet hoppers",
+				"smooth font",
+				"fancy block particles",
+				"instantunify",
+				"nofog",
+				"recurrent complex",
+			]
+		},
+		"corecontentlite": {
+			"version":"1.0.0",
+			"mcversion":"1.12.2",
+			"description":"A helper preset for 'corelite' and 'corefull'. Missing a good chunk of mods, including core mods. Not by any stretch a full modlist.",
+			"mods": [
+				"chisel",
+				"storage drawers",
+				"iron chests",
+				"tinkers construct",
+				"chisels and bits",
+				"ender storage 1.8.+",
+				"biomes o' plenty",
+				"botania",
+				"extra utilities",
+				"cofh world",
+				"thermal foundation",
+				"thermal dynamics",
+				"thermal expansion",
+				"industrial foregoing",
+				"immersive engineering",
+				"waystones",
+				"better builder's wands",
+				"tinkers' tool leveling",
+				"corail tombstone",
+				"building gadgets",
+				"dark utilities",
+				"random things",
+				"cyclic",
+				"ender io",
+				"refined storage",
+				"roguelike dungeons",
+				"akashic tome",
+				"flux networks",
+				"comforts",
+				"iron backpacks",
+				"refined storage addons",
+				"integration foregoing",
+				"tool belt",
+				"snad"
+			]
+		},
+		"corecontentfull": {
+			"version":"1.0.0",
+			"mcversion":"1.12.2",
+			"description":"A helper preset for 'corefull'. Missing a good chunk of mods, including core mods. Not by any stretch a full modlist.",
+			"mods": [
+				"applied energistics 2",
+				"pam's harvestcraft",
+				"cooking for blockheads",
+				"the twilight forest",
+				"mekanism",
+				"mekanism generators",
+				"mekanism tools",
+				"openblocks",
+				"thaumcraft",
+				"forestry",
+				"astral sorcery",
+				"thermal innovation",
+				"ae2 stuff",
+				"extracells2",
+				"blood magic",
+				"integrated dynamics",
+				"opencomputers",
+				"construct's armory",
+				"ae2 wireless terminal library",
+				"wireless crafting terminal",
+				"thermal cultivation",
+				"gendustry"
+			]
+		},
+		"corelite": {
+			"version":"1.0.0",
+			"mcversion":"1.12.2",
+			"description":"A mostly fully-featured mod list, missing a few extraneous mods, for those with weaker computers.",
+			"presets": [
+				"coreutility",
+				"corecontentlite"
+			]
+		},
+		"corefull": {
+			"version":"1.0.0",
+			"mcversion":"1.12.2",
+			"description":"A fully-featured mod list for those with moderately strong computers.",
+			"presets": [
+				"corelite",
+				"corecontentfull"
+			]
+		}
+	}
+}
